@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "puzzles":  "Puzzles & Pins",
+    "activites": "Livres d'activités",
+    "colorier":  "Livres à colorier",
+    "vacances":  "Cahiers de vacances",
+    "tshirts":   "T-shirts",
+    "shop":      "Boutique",
+    "account":   "Mon compte",
+    "admin":     "Administration"
+  },
+  "common": {
+    "addToCart":    "Ajouter au panier",
+    "buyNow":       "Acheter maintenant",
+    "seeAll":       "Voir tout",
+    "seeMore":      "Voir plus",
+    "backToShop":   "Retour boutique",
+    "loading":      "Chargement…",
+    "error":        "Une erreur est survenue",
+    "from":         "Dès",
+    "new":          "Nouveau",
+    "promo":        "Promo",
+    "soldOut":      "Épuisé",
+    "inStock":      "En stock",
+    "quantity":     "Quantité",
+    "size":         "Taille",
+    "color":        "Couleur",
+    "search":       "Rechercher…",
+    "cancel":       "Annuler",
+    "save":         "Enregistrer",
+    "delete":       "Supprimer",
+    "edit":         "Modifier",
+    "confirm":      "Confirmer",
+    "yes":          "Oui",
+    "no":           "Non"
+  },
+  "home": {
+    "hero": {
+      "title":    "La créativité sans limites",
+      "subtitle": "Puzzles, livres d'activités, cahiers de vacances et t-shirts pour les enfants qui voient la vie en couleur.",
+      "cta":      "Découvrir la boutique"
+    },
+    "categories": {
+      "title":    "Nos univers"
+    },
+    "featured": {
+      "title":    "Nos coups de cœur"
+    },
+    "newsletter": {
+      "title":       "Restez dans la boucle créative",
+      "subtitle":    "Nouveautés, promos et idées cadeaux directement dans votre boîte mail.",
+      "placeholder": "Votre email…",
+      "cta":         "Je m'abonne"
+    }
+  },
+  "shop": {
+    "title":      "Boutique",
+    "filters":    "Filtres",
+    "sortBy":     "Trier par",
+    "newest":     "Les plus récents",
+    "priceAsc":   "Prix croissant",
+    "priceDesc":  "Prix décroissant",
+    "nameAsc":    "A → Z",
+    "noResults":  "Aucun produit trouvé.",
+    "results":    "{count} produit | {count} produits"
+  },
+  "product": {
+    "description": "Description",
+    "variants":    "Options",
+    "outOfStock":  "Produit épuisé",
+    "addedToCart": "Ajouté au panier !",
+    "share":       "Partager"
+  },
+  "cart": {
+    "title":       "Mon panier",
+    "empty":       "Votre panier est vide.",
+    "emptyAction": "Découvrir la boutique",
+    "subtotal":    "Sous-total",
+    "discount":    "Réduction",
+    "total":       "Total",
+    "promoCode":   "Code promo",
+    "apply":       "Appliquer",
+    "checkout":    "Passer la commande",
+    "remove":      "Supprimer",
+    "freeShipping": "Livraison offerte dès 50 €"
+  },
+  "checkout": {
+    "success": {
+      "title":    "Commande confirmée !",
+      "subtitle": "Merci pour votre achat. Vous allez recevoir un email de confirmation.",
+      "cta":      "Retour à l'accueil"
+    }
+  },
+  "auth": {
+    "login":          "Se connecter",
+    "register":       "Créer un compte",
+    "logout":         "Déconnexion",
+    "email":          "Email",
+    "password":       "Mot de passe",
+    "firstName":      "Prénom",
+    "lastName":       "Nom",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount":      "Pas encore de compte ?",
+    "hasAccount":     "Déjà un compte ?"
+  },
+  "admin": {
+    "dashboard":  "Tableau de bord",
+    "products":   "Produits",
+    "orders":     "Commandes",
+    "categories": "Catégories",
+    "users":      "Utilisateurs",
+    "totalOrders":   "Commandes totales",
+    "revenue":       "Chiffre d'affaires",
+    "totalProducts": "Produits",
+    "totalUsers":    "Clients",
+    "recentOrders":  "Commandes récentes",
+    "newProduct":    "Nouveau produit",
+    "newCategory":   "Nouvelle catégorie",
+    "status": {
+      "PENDING":    "En attente",
+      "PAID":       "Payée",
+      "PROCESSING": "En préparation",
+      "SHIPPED":    "Expédiée",
+      "DELIVERED":  "Livrée",
+      "CANCELLED":  "Annulée",
+      "REFUNDED":   "Remboursée"
+    }
+  },
+  "footer": {
+    "about":    "À propos",
+    "contact":  "Contact",
+    "legal":    "Mentions légales",
+    "cgv":      "CGV",
+    "privacy":  "Confidentialité",
+    "rights":   "Tous droits réservés."
+  }
+}

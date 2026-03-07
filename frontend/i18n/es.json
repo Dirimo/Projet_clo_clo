@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "puzzles":   "Puzles & Pins",
+    "activites": "Libros de actividades",
+    "colorier":  "Libros para colorear",
+    "vacances":  "Cuadernos de vacaciones",
+    "tshirts":   "Camisetas",
+    "shop":      "Tienda",
+    "account":   "Mi cuenta",
+    "admin":     "Administración"
+  },
+  "common": {
+    "addToCart":    "Añadir al carrito",
+    "buyNow":       "Comprar ahora",
+    "seeAll":       "Ver todo",
+    "seeMore":      "Ver más",
+    "backToShop":   "Volver a la tienda",
+    "loading":      "Cargando…",
+    "error":        "Se ha producido un error",
+    "from":         "Desde",
+    "new":          "Nuevo",
+    "promo":        "Oferta",
+    "soldOut":      "Agotado",
+    "inStock":      "En stock",
+    "quantity":     "Cantidad",
+    "size":         "Talla",
+    "color":        "Color",
+    "search":       "Buscar…",
+    "cancel":       "Cancelar",
+    "save":         "Guardar",
+    "delete":       "Eliminar",
+    "edit":         "Editar",
+    "confirm":      "Confirmar",
+    "yes":          "Sí",
+    "no":           "No"
+  },
+  "home": {
+    "hero": {
+      "title":    "La creatividad sin límites",
+      "subtitle": "Puzles, libros de actividades, cuadernos de vacaciones y camisetas para los niños que ven la vida en color.",
+      "cta":      "Descubrir la tienda"
+    },
+    "categories": {
+      "title":    "Nuestros mundos"
+    },
+    "featured": {
+      "title":    "Nuestras favoritas"
+    },
+    "newsletter": {
+      "title":       "Mantente en el bucle creativo",
+      "subtitle":    "Novedades, ofertas e ideas de regalo directamente en tu correo.",
+      "placeholder": "Tu email…",
+      "cta":         "Suscribirme"
+    }
+  },
+  "shop": {
+    "title":      "Tienda",
+    "filters":    "Filtros",
+    "sortBy":     "Ordenar por",
+    "newest":     "Más recientes",
+    "priceAsc":   "Precio: menor a mayor",
+    "priceDesc":  "Precio: mayor a menor",
+    "nameAsc":    "A → Z",
+    "noResults":  "No se encontraron productos.",
+    "results":    "{count} producto | {count} productos"
+  },
+  "product": {
+    "description": "Descripción",
+    "variants":    "Opciones",
+    "outOfStock":  "Producto agotado",
+    "addedToCart": "¡Añadido al carrito!",
+    "share":       "Compartir"
+  },
+  "cart": {
+    "title":        "Mi carrito",
+    "empty":        "Tu carrito está vacío.",
+    "emptyAction":  "Descubrir la tienda",
+    "subtotal":     "Subtotal",
+    "discount":     "Descuento",
+    "total":        "Total",
+    "promoCode":    "Código promocional",
+    "apply":        "Aplicar",
+    "checkout":     "Finalizar pedido",
+    "remove":       "Eliminar",
+    "freeShipping": "Envío gratis desde 50 €"
+  },
+  "checkout": {
+    "success": {
+      "title":    "¡Pedido confirmado!",
+      "subtitle": "Gracias por tu compra. Recibirás un email de confirmación en breve.",
+      "cta":      "Volver al inicio"
+    }
+  },
+  "auth": {
+    "login":          "Iniciar sesión",
+    "register":       "Crear una cuenta",
+    "logout":         "Cerrar sesión",
+    "email":          "Email",
+    "password":       "Contraseña",
+    "firstName":      "Nombre",
+    "lastName":       "Apellidos",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount":      "¿Todavía no tienes cuenta?",
+    "hasAccount":     "¿Ya tienes una cuenta?"
+  },
+  "admin": {
+    "dashboard":     "Panel de control",
+    "products":      "Productos",
+    "orders":        "Pedidos",
+    "categories":    "Categorías",
+    "users":         "Usuarios",
+    "totalOrders":   "Pedidos totales",
+    "revenue":       "Ingresos",
+    "totalProducts": "Productos",
+    "totalUsers":    "Clientes",
+    "recentOrders":  "Pedidos recientes",
+    "newProduct":    "Nuevo producto",
+    "newCategory":   "Nueva categoría",
+    "status": {
+      "PENDING":    "Pendiente",
+      "PAID":       "Pagado",
+      "PROCESSING": "En preparación",
+      "SHIPPED":    "Enviado",
+      "DELIVERED":  "Entregado",
+      "CANCELLED":  "Cancelado",
+      "REFUNDED":   "Reembolsado"
+    }
+  },
+  "footer": {
+    "about":   "Sobre nosotros",
+    "contact": "Contacto",
+    "legal":   "Aviso legal",
+    "cgv":     "Condiciones",
+    "privacy": "Privacidad",
+    "rights":  "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "puzzles":   "Puzzles & Pins",
+    "activites": "Activity Books",
+    "colorier":  "Coloring Books",
+    "vacances":  "Holiday Notebooks",
+    "tshirts":   "T-shirts",
+    "shop":      "Shop",
+    "account":   "My account",
+    "admin":     "Administration"
+  },
+  "common": {
+    "addToCart":    "Add to cart",
+    "buyNow":       "Buy now",
+    "seeAll":       "See all",
+    "seeMore":      "See more",
+    "backToShop":   "Back to shop",
+    "loading":      "Loading…",
+    "error":        "An error occurred",
+    "from":         "From",
+    "new":          "New",
+    "promo":        "Sale",
+    "soldOut":      "Sold out",
+    "inStock":      "In stock",
+    "quantity":     "Quantity",
+    "size":         "Size",
+    "color":        "Color",
+    "search":       "Search…",
+    "cancel":       "Cancel",
+    "save":         "Save",
+    "delete":       "Delete",
+    "edit":         "Edit",
+    "confirm":      "Confirm",
+    "yes":          "Yes",
+    "no":           "No"
+  },
+  "home": {
+    "hero": {
+      "title":    "Creativity without limits",
+      "subtitle": "Puzzles, activity books, holiday notebooks and t-shirts for children who see life in color.",
+      "cta":      "Discover the shop"
+    },
+    "categories": {
+      "title":    "Our worlds"
+    },
+    "featured": {
+      "title":    "Our favourites"
+    },
+    "newsletter": {
+      "title":       "Stay in the creative loop",
+      "subtitle":    "New arrivals, deals and gift ideas delivered to your inbox.",
+      "placeholder": "Your email…",
+      "cta":         "Subscribe"
+    }
+  },
+  "shop": {
+    "title":      "Shop",
+    "filters":    "Filters",
+    "sortBy":     "Sort by",
+    "newest":     "Newest",
+    "priceAsc":   "Price: low to high",
+    "priceDesc":  "Price: high to low",
+    "nameAsc":    "A → Z",
+    "noResults":  "No products found.",
+    "results":    "{count} product | {count} products"
+  },
+  "product": {
+    "description": "Description",
+    "variants":    "Options",
+    "outOfStock":  "Out of stock",
+    "addedToCart": "Added to cart!",
+    "share":       "Share"
+  },
+  "cart": {
+    "title":        "My cart",
+    "empty":        "Your cart is empty.",
+    "emptyAction":  "Discover the shop",
+    "subtotal":     "Subtotal",
+    "discount":     "Discount",
+    "total":        "Total",
+    "promoCode":    "Promo code",
+    "apply":        "Apply",
+    "checkout":     "Checkout",
+    "remove":       "Remove",
+    "freeShipping": "Free shipping from €50"
+  },
+  "checkout": {
+    "success": {
+      "title":    "Order confirmed!",
+      "subtitle": "Thank you for your purchase. You will receive a confirmation email shortly.",
+      "cta":      "Back to home"
+    }
+  },
+  "auth": {
+    "login":          "Log in",
+    "register":       "Create an account",
+    "logout":         "Log out",
+    "email":          "Email",
+    "password":       "Password",
+    "firstName":      "First name",
+    "lastName":       "Last name",
+    "forgotPassword": "Forgot password?",
+    "noAccount":      "No account yet?",
+    "hasAccount":     "Already have an account?"
+  },
+  "admin": {
+    "dashboard":     "Dashboard",
+    "products":      "Products",
+    "orders":        "Orders",
+    "categories":    "Categories",
+    "users":         "Users",
+    "totalOrders":   "Total orders",
+    "revenue":       "Revenue",
+    "totalProducts": "Products",
+    "totalUsers":    "Customers",
+    "recentOrders":  "Recent orders",
+    "newProduct":    "New product",
+    "newCategory":   "New category",
+    "status": {
+      "PENDING":    "Pending",
+      "PAID":       "Paid",
+      "PROCESSING": "Processing",
+      "SHIPPED":    "Shipped",
+      "DELIVERED":  "Delivered",
+      "CANCELLED":  "Cancelled",
+      "REFUNDED":   "Refunded"
+    }
+  },
+  "footer": {
+    "about":   "About",
+    "contact": "Contact",
+    "legal":   "Legal notice",
+    "cgv":     "Terms",
+    "privacy": "Privacy",
+    "rights":  "All rights reserved."
+  }
+}

@@ -1,0 +1,164 @@
+/* ─── Reset ──────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Palette 1984 + variables globales ──────────────── */
+:root {
+  /* Palette 1984 */
+  --burning-orange: #ff6933;
+  --neon-carrot:    #ff9b3d;
+  --bright-sun:     #ffc83d;
+  --wattle:         #d3e156;
+  --paradiso:       #3d8f8d;
+
+  /* Rôles sémantiques */
+  --color-primary:      var(--burning-orange);   /* CTAs, accents forts */
+  --color-secondary:    var(--paradiso);          /* Accents secondaires, badges */
+  --color-accent:       var(--bright-sun);        /* Highlights, promos */
+  --color-fresh:        var(--wattle);            /* Badges "Nouveau" */
+  --color-warm:         var(--neon-carrot);       /* Hover, gradients */
+
+  /* Neutres */
+  --color-bg:           #faf7f0;                  /* Fond crème (comme le logo) */
+  --color-surface:      #ffffff;
+  --color-text:         #1a1a1a;
+  --color-text-muted:   #6b7280;
+  --color-border:       #e5e7eb;
+
+  /* Typo — Nunito chargé via Google Fonts */
+  --font-sans: 'Nunito', system-ui, -apple-system, sans-serif;
+
+  /* Misc */
+  --radius:    8px;
+  --radius-lg: 16px;
+  --shadow:    0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 25px -5px rgb(0 0 0 / 0.12);
+  --nav-h:     80px;
+}
+
+/* ─── Base HTML ──────────────────────────────────────── */
+html {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* ─── Utilitaires boutons ────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  cursor: pointer;
+}
+
+.btn:hover  { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.btn:active { transform: translateY(0); }
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn-primary:hover { background: var(--color-warm); }
+
+.btn-secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+.btn-outline:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-border);
+}
+.btn-ghost:hover { border-color: var(--color-primary); color: var(--color-primary); }
+
+/* ─── Badge ──────────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.badge-new     { background: var(--wattle);  color: #2d3a00; }
+.badge-promo   { background: var(--bright-sun); color: #3d2d00; }
+.badge-sold-out { background: #e5e7eb; color: var(--color-text-muted); }
+
+/* ─── Conteneur page ─────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ─── Grille produits ────────────────────────────────── */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+/* ─── Transitions de page Nuxt ───────────────────────── */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* ─── Scrollbar personnalisée ────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--neon-carrot); }
