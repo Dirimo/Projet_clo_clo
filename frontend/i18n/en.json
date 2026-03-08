@@ -32,19 +32,44 @@
     "edit":         "Edit",
     "confirm":      "Confirm",
     "yes":          "Yes",
-    "no":           "No"
+    "no":           "No",
+    "back":         "Back"
   },
   "home": {
     "hero": {
-      "title":    "Creativity without limits",
-      "subtitle": "Puzzles, activity books, holiday notebooks and t-shirts for children who see life in color.",
-      "cta":      "Discover the shop"
+      "eyebrow":        "Made with ❤️ in France",
+      "title":          "Creativity without limits",
+      "subtitle":       "Puzzles, activity books, holiday notebooks and t-shirts for children who see life in color.",
+      "cta":            "Discover the shop",
+      "ctaSecondary":   "See t-shirts",
+      "statCategories": "Categories",
+      "statHandmade":   "Handmade",
+      "statMade":       "Made in"
     },
     "categories": {
       "title":    "Our worlds"
     },
+    "feature": {
+      "title": "T-shirts that tell a story",
+      "body":  "Every CLO-CLO t-shirt is designed for curious and creative kids. Unique designs, vibrant colors and soft fabrics for ultimate comfort.",
+      "li1":   "100% certified organic cotton",
+      "li2":   "Long-lasting water-based ink printing",
+      "li3":   "Sizes 2 to 14 years",
+      "cta":   "View the collection"
+    },
     "featured": {
-      "title":    "Our favourites"
+      "title":    "Our favourites",
+      "subtitle": "A selection of our favourite products right now.",
+      "empty":    "Favourites coming soon!"
+    },
+    "values": {
+      "title":        "Why CLO-CLO?",
+      "quality":      "Premium quality",
+      "qualityDesc":  "Every product is carefully selected for its durability and finish.",
+      "delivery":     "Fast delivery",
+      "deliveryDesc": "Shipped in 24-48h, free delivery from €50.",
+      "passion":      "Made with passion",
+      "passionDesc":  "Original designs created by passionate artists."
     },
     "newsletter": {
       "title":       "Stay in the creative loop",

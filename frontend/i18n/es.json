@@ -32,19 +32,44 @@
     "edit":         "Editar",
     "confirm":      "Confirmar",
     "yes":          "Sí",
-    "no":           "No"
+    "no":           "No",
+    "back":         "Volver"
   },
   "home": {
     "hero": {
-      "title":    "La creatividad sin límites",
-      "subtitle": "Puzles, libros de actividades, cuadernos de vacaciones y camisetas para los niños que ven la vida en color.",
-      "cta":      "Descubrir la tienda"
+      "eyebrow":        "Hecho con ❤️ en Francia",
+      "title":          "La creatividad sin límites",
+      "subtitle":       "Puzles, libros de actividades, cuadernos de vacaciones y camisetas para los niños que ven la vida en color.",
+      "cta":            "Descubrir la tienda",
+      "ctaSecondary":   "Ver camisetas",
+      "statCategories": "Categorías",
+      "statHandmade":   "Artesanal",
+      "statMade":       "Fabricado"
     },
     "categories": {
       "title":    "Nuestros mundos"
     },
+    "feature": {
+      "title": "Camisetas que cuentan una historia",
+      "body":  "Cada camiseta CLO-CLO está pensada para niños curiosos y creativos. Diseños únicos, colores vivos y tejidos suaves para el máximo confort.",
+      "li1":   "100% algodón orgánico certificado",
+      "li2":   "Impresión duradera con tintas al agua",
+      "li3":   "De 2 a 14 años",
+      "cta":   "Ver la colección"
+    },
     "featured": {
-      "title":    "Nuestras favoritas"
+      "title":    "Nuestras favoritas",
+      "subtitle": "Una selección de nuestros productos favoritos del momento.",
+      "empty":    "¡Las favoritas llegan pronto!"
+    },
+    "values": {
+      "title":        "¿Por qué CLO-CLO?",
+      "quality":      "Calidad premium",
+      "qualityDesc":  "Cada producto se selecciona cuidadosamente por su durabilidad y acabado.",
+      "delivery":     "Entrega rápida",
+      "deliveryDesc": "Enviado en 24-48h, envío gratis desde 50 €.",
+      "passion":      "Hecho con pasión",
+      "passionDesc":  "Diseños originales creados por artistas apasionados."
     },
     "newsletter": {
       "title":       "Mantente en el bucle creativo",

@@ -1,3 +1,34 @@
+/**
+ * ============================================================
+ * auth/auth.service.ts — Logique métier d'authentification
+ * ============================================================
+ * Rôle : Implémente les 4 opérations d'authentification :
+ *        register, login, refresh (renouvellement token), logout.
+ *
+ * Stratégie double token :
+ *  - accessToken  : JWT signé avec JWT_SECRET, expire en 15 min
+ *                   → Envoyé dans le corps de la réponse, stocké en sessionStorage
+ *  - refreshToken : JWT signé avec JWT_REFRESH_SECRET, expire en 7 jours
+ *                   → Envoyé en cookie httpOnly (invisible au JS → anti-XSS)
+ *                   → Hashé en bcrypt avant stockage en DB (anti-vol DB)
+ *
+ * Sécurité :
+ *  - Mots de passe hashés bcrypt (10 rounds) avant stockage
+ *  - Messages d'erreur génériques pour login ("Identifiants invalides")
+ *    → Évite l'énumération des emails
+ *  - Refresh token comparé via bcrypt.compare() (jamais stocké en clair)
+ *
+ * Méthodes publiques :
+ *  - register(dto)              : crée un compte + retourne les tokens
+ *  - login(dto)                 : vérifie identifiants + retourne les tokens
+ *  - refresh(userId, rawToken)  : renouvelle les 2 tokens si refresh valide
+ *  - logout(userId)             : invalide le refresh token en DB (null)
+ *
+ * Méthodes privées :
+ *  - generateTokens()    : génère accessToken + refreshToken en parallèle
+ *  - saveRefreshToken()  : hashe et sauvegarde le refresh token en DB
+ * ============================================================
+ */
 import {
   Injectable,
   ConflictException,

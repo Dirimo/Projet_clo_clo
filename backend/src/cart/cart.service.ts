@@ -1,3 +1,35 @@
+/**
+ * ============================================================
+ * cart/cart.service.ts — Validation serveur du panier
+ * ============================================================
+ * Rôle : Valide le contenu du panier côté serveur avant tout paiement.
+ *        Les prix et stocks affichés côté client ne sont JAMAIS utilisés
+ *        pour facturer — tout est recalculé depuis la base de données.
+ *
+ * Règle de sécurité fondamentale :
+ *  → Un client malveillant pourrait manipuler les prix dans le store Pinia.
+ *    Ce service empêche toute fraude en rechargeant les prix depuis la DB.
+ *
+ * Méthode publique :
+ *  - validate(dto) : valide chaque article et applique le code promo
+ *    Étape 1 : Vérifie que le panier n'est pas vide
+ *    Étape 2 : Pour chaque article → validateItem() :
+ *              - Produit existant et actif (isActive = true)
+ *              - Variante existante si variantId fourni
+ *              - Stock suffisant (product.stock ou variant.stock)
+ *              - Prix recalculé : product.price + variant.priceAdjustment
+ *    Étape 3 : Calcule le sous-total (somme prix × quantité)
+ *    Étape 4 : Si promoCode → validatePromoCode() :
+ *              - Promo active, non expirée, limite d'utilisation non atteinte
+ *              - Montant minimum de commande respecté
+ *              - Calcul de la remise (PERCENTAGE ou FIXED en centimes)
+ *    Étape 5 : Retourne ValidatedCart avec subtotal, discountAmount, total
+ *
+ * Types retournés :
+ *  - ValidatedCartItem : article validé avec prix réel DB
+ *  - ValidatedCart     : panier complet avec totaux calculés
+ * ============================================================
+ */
 import {
   Injectable,
   BadRequestException,

@@ -3,11 +3,8 @@
     <div class="navbar__inner container">
 
       <!-- Logo -->
-      <NuxtLink :to="localePath('/')" class="navbar__logo">
-        <div class="logo-mark">
-          <span>CLO</span>
-          <span>CLO</span>
-        </div>
+      <NuxtLink :to="localePath('/')" class="navbar__logo" aria-label="CLO-CLO accueil">
+        <img src="/logo.png" alt="CLO-CLO" class="logo-img" />
       </NuxtLink>
 
       <!-- Navigation catégories (style Cool Bottles Co) -->
@@ -170,7 +167,7 @@ const categories = [
   right: 0;
   z-index: 200;
   height: var(--nav-h);
-  background: var(--color-surface);
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
@@ -187,27 +184,18 @@ const categories = [
 .navbar__logo {
   flex-shrink: 0;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.logo-mark {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 56px;
-  border: 2.5px solid var(--color-text);
-  border-radius: 50%;
-  font-weight: 900;
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  line-height: 1.1;
-  color: var(--color-text);
-  transition: border-color 0.2s;
+.logo-img {
+  height: 52px;
+  width: auto;
+  display: block;
+  transition: transform 0.2s;
 }
-.navbar__logo:hover .logo-mark {
-  border-color: var(--burning-orange);
-  color: var(--burning-orange);
+.navbar__logo:hover .logo-img {
+  transform: scale(1.05);
 }
 
 /* Catégories */

@@ -32,19 +32,44 @@
     "edit":         "Modifier",
     "confirm":      "Confirmer",
     "yes":          "Oui",
-    "no":           "Non"
+    "no":           "Non",
+    "back":         "Retour"
   },
   "home": {
     "hero": {
-      "title":    "La créativité sans limites",
-      "subtitle": "Puzzles, livres d'activités, cahiers de vacances et t-shirts pour les enfants qui voient la vie en couleur.",
-      "cta":      "Découvrir la boutique"
+      "eyebrow":        "Fait avec ❤️ en France",
+      "title":          "La créativité sans limites",
+      "subtitle":       "Puzzles, livres d'activités, cahiers de vacances et t-shirts pour les enfants qui voient la vie en couleur.",
+      "cta":            "Découvrir la boutique",
+      "ctaSecondary":   "Voir les t-shirts",
+      "statCategories": "Catégories",
+      "statHandmade":   "Fait-main",
+      "statMade":       "Fabriqué"
     },
     "categories": {
       "title":    "Nos univers"
     },
+    "feature": {
+      "title": "Des t-shirts qui racontent une histoire",
+      "body":  "Chaque t-shirt CLO-CLO est pensé pour les enfants curieux et créatifs. Des designs uniques, des couleurs vives et des matières douces pour un confort optimal.",
+      "li1":   "100% coton bio certifié",
+      "li2":   "Impression durable aux encres à l'eau",
+      "li3":   "Du 2 ans au 14 ans",
+      "cta":   "Voir la collection"
+    },
     "featured": {
-      "title":    "Nos coups de cœur"
+      "title":    "Nos coups de cœur",
+      "subtitle": "Une sélection de nos produits préférés du moment.",
+      "empty":    "Les coups de cœur arrivent bientôt !"
+    },
+    "values": {
+      "title":        "Pourquoi CLO-CLO ?",
+      "quality":      "Qualité premium",
+      "qualityDesc":  "Chaque produit est sélectionné avec soin pour sa durabilité et sa finition.",
+      "delivery":     "Livraison rapide",
+      "deliveryDesc": "Expédition en 24-48h, livraison offerte dès 50 €.",
+      "passion":      "Fait avec passion",
+      "passionDesc":  "Des designs originaux créés par des artistes passionnés."
     },
     "newsletter": {
       "title":       "Restez dans la boucle créative",
